@@ -34,7 +34,11 @@ namespace TechTest.Controllers
 			return dbManager.GetInstance().getRecords();
 		}
 
-		
+
+		/*
+		*  https://localhost:44305/TechTest/{idNum}
+		*/
+
 		[HttpGet("{id}")]
 		public Record Get1Record(int id)
         {
