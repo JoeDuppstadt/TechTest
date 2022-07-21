@@ -12,18 +12,6 @@ namespace TechTest.Controllers
 	[Route("[controller]")]
 	public class TechTest : ControllerBase
 	{
-		private static readonly string[] Summaries = new[]
-		{
-			"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-		};
-
-		private readonly ILogger<TechTest> _logger;
-
-		public TechTest(ILogger<TechTest> logger)
-		{
-			_logger = logger;
-		}
-
 		/*
 		 *  https://localhost:44305/TechTest
 		 */
